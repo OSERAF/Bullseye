@@ -1,0 +1,8 @@
+edit bullseye.conf to point at the attached fao-countries.json and fao-countries_dukeConf.xml
+as the graphsonPath and confPath.
+
+then you can run the bullseye server with:
+java -Dconfig.file=bullseye.conf -jar bullseye-webapp-1.0.0-SNAPSHOT.war 8080
+
+alternatively, you can edit the application.conf in the root of the war file, and then
+you don't need the separate bullseye.conf file or -D flag when running the war.
