@@ -2,4 +2,4 @@
 
 # This will run a new Rexster container detached
 
-docker run --name=bullseye -h=oseraf-bullseye -p  8000:8000 -d oseraf/bullseye
+docker run --name=bullseye -h=oseraf-bullseye -p  8080:8080 -d oseraf/bullseye

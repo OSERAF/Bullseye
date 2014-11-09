@@ -22,7 +22,7 @@ ADD  bullseye.zip /
 RUN unzip bullseye.zip
 RUN rm bullseye.zip
 RUN mv bullseye-dist bullseye-server
-
+RUN chmod 755 /bullseye-server/bullseye.sh
 # configure system
 # Server listening port
 EXPOSE 8080
@@ -30,4 +30,4 @@ EXPOSE 8080
 WORKDIR bullseye-server
 
 ## Entrypoint
-ENTRYPOINT ["bullseye.sh"]
+#ENTRYPOINT ["./bullseye.sh"]
