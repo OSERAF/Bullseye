@@ -30,4 +30,4 @@ EXPOSE 8080
 WORKDIR bullseye-server
 
 ## Entrypoint
-ENTRYPOINT ["java -Dconfig.file=bullseye.conf -jar bullseye-webapp-1.0.0-SNAPSHOT.war", "8080"]
+ENTRYPOINT ["bullseye.sh"]
