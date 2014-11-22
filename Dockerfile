@@ -30,4 +30,4 @@ EXPOSE 8080
 WORKDIR bullseye-server
 
 ## Entrypoint
-ENTRYPOINT ["./bullseye.sh"]
+#ENTRYPOINT ["./bullseye.sh"]
